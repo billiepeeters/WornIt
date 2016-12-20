@@ -5,14 +5,10 @@
     <div class=search>
         <p>form search</p>
         
-        <form action="/products" method="get" class=search>
-            <label for="txtSearch">
-                Kleding zoeken input
-            </label>
-            <input type="text" name="txtSearch" id="txtSearch" placeholder="Kleding zoeken">
+        <form action="/overview" method="get" class=search>
             
             <label for="selectCategory">
-                Categorie select
+                Categorie:
             </label>
             <select name="selectCategory" id="selectCategory">
                 <option value="1">trui</option>
@@ -20,13 +16,18 @@
             </select>
             
             <label for="selectSize">
-                Maat
+                Maat:
             </label>
             <select name="selectSize" id="selectSize">
                 <option value="1">S</option>
                 <option value="2">M</option>
                 <option value="3">L</option>
                 <option value="4">XL</option>
+            </select>
+            
+            <label for="brand">Merk</label>
+            <select name="selectBrand" id="selectBrand">
+                <option value="weAreImd">weAreImd</option>
             </select>
             
             <button type="submit" id="btnSearch">
