@@ -1,0 +1,107 @@
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #f16b6c;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+form{
+    margin-top: 2%;
+}
+
+.formTotal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.formTotal label{
+    display: block;
+    width: 170px;
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    
+}
+
+.formTotal input{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-top: solid 0px;
+    border-right: solid 0px;
+    border-left: solid 0px;
+    border-bottom: solid 1px #ffc9c9;
+    color: #e03131;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.formTotal button{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #f16b6c;
+    border-radius: 20px;
+    border-style: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;   
+}
+
+.formTotal a{
+    text-decoration: none;
+    color:#fdbaba;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 20px;
+}
+
+.formTotal a:hover,
+.formTotal a:active{
+    color:#f16b6c;
+    
+}
+
+#register{
+    margin-top: -10px;
+}
+
+
+@media screen and (max-width: 425px){
+    .formTotal{
+        width: 200px;
+        height: 60px;
+    }
+    
+    .formTotal label{
+        text-align: center;
+        width: 200px;
+        margin-right: 0px
+    }
+    
+    .formTotal input{
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+}
+
+

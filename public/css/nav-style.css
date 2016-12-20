@@ -1,0 +1,92 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.top{
+    height: 70px;
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px;
+    border-bottom-color: #ffc9c9; 
+}
+
+.menu{
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 600px;
+}
+.hamburger{
+    display: block;
+    float: left;
+    width: 30px;
+    margin-top: 10px;
+}
+.bar1, .bar2, .bar3{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 5px;
+    background-color: #f16b6c;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    transition: 0.4s;
+}
+ /* rotate first bar */
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.nav{
+    display: block;
+    float: left;
+    visibility: hidden;
+}
+
+.change .nav{
+    visibility: visible;
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #F16B6C
+}
+
+.nav a:hover,
+.nav a:active{
+    color: #e03131;
+}
+
+
+/*logo*/
+.logo{
+    display: block;
+    background-image: url(/images/logo_worn.png);
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 78px;
+    background-position: center;  
+}
+
+
+
